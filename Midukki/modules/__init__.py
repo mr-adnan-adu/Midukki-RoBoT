@@ -268,12 +268,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/malayalamaudiobooksebooks"
                 ),
             button()
                 (
                     "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/ebooks_malayalam_ebooks"
                 )
         ],
         [
@@ -347,24 +347,19 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/malayalamaudiobooksebooks"
                 ),
             button()
                 (
                     "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/ebooks_malayalam_ebooks"
                 )
         ],
         [
             button()
                 (
-                    "Tutorial",
-                        url="https://youtu.be/63K9xkKMBoo"
-                ),
-            button()
-                (
                     "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
+                        url="https://www.instagram.com/a.d_n_a.n"
                 )
         ],
         [
