@@ -11,7 +11,7 @@
       "tech"
     ],
     "website": "https//telegram.dog/Midukki_RoBoT",
-    "repository": "https://github.com/PR0FESS0R-99/Midukki-RoBoT",
+    "repository": "https://github.com/mr-adnan-adu/Midukki-RoBoT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
