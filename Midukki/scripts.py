@@ -1,42 +1,56 @@
-START_TXT = """hello👋 {},
-i am <a href=https://t.me/{}>{}</a>,
+START_TXT = """
+Hello 👋 {mention} 
 
-<i>I Can Provide Malayalam, English All Other Language Pdf And Epub Other Format stories/Novels In Telegram Groups. You Can Search Any PDFs Via Inline. I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>
+I'm <b>{bot}</b> ✨ an advanced telegram eBooks Downloader 
 
-Your favorite stories are now at your fingertips.. 😍😍
+I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
 
-<b>Made With ❤ BY @mr_readers  </b>
+Join <b><a href=https://t.me/ebooks_malayalam_ebooks>my news channel</a></b> to get information on all the latest updates
 """
-    HELP_TXT = """hello {}
-    
-Hᴇʀᴇ ɪs ᴛʜᴇ Hᴇʟᴘ ᴏғ ᴍʏ Cᴏᴍᴍᴀɴᴅs"""
-    ABOUT_TXT = """
-🤖 ʙᴏᴛ ɴᴀᴍᴇ: {}
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/mr_readers">ᴍᴜʜᴀᴍᴍᴇᴅ ᴀᴅɴᴀɴ ᴋ</a>
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href="https://t.me/malayalamaudiobooksebooks"> ɪɴᴅɪᴀɴ ᴇʙᴏᴏᴋs</a>
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/ebooks_malayalam_ebooks">ᴍᴀʟᴀʏᴀʟᴀᴍ ᴇʙᴏᴏᴋs ʟɪʙʀᴀʀʏ</a>
+
+HELP_TXT = """
+👋 <b>Hello {mention}!</b>
+
+I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules          
+
+📚 <u><b>HelpFull Commands</b></u>:
+
+- /start : Starts me! You've probably already used this!.
+- /help : Sends this message; I'll tell you more about models!
+- /about : Sends this message; I'll tell you more about myself!
+- /donate : Gives you info on how to support me and my creator!
+
+<b>All commands can be used with the following: [ / ]</b>
 """
-    SOURCE_TXT = """<b>NOTE:</b>
-- modified version,for private use. 
 
-<b>Creator:</b>
-- <a href="https://telegram.me/mr_readers">ᴍᴜʜᴀᴍᴍᴇᴅ ᴀᴅɴᴀɴ ᴋ</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+ABOUT_TXT = """
+[{name}](t.me/{username}) Was created on September 4, 2022
+We are currently developing this bot, using only the Pyrogram library.
+
+➾ Developers : Muhammed
+➾ Language : Python3
+➾ Framework : Pyrogram
+➾ Database : Mongo db
 """
-    
-STATUS_TXT = """<b>📚 Total PDF Files</b> : <code>{}</code>
-    
-<b>👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs/b> : <code>{}</code>
 
-<b>👩‍💻 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs</b> : <code>{}</code>
+STATUS_TXT = """
+**--{bot}'s STATUS--**
 
-<b>📊 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ</b> : <code>{}</code> MIB
+📡 __--Server Status--__
+◉ Uptime: `{a}`
+◉ CPU Usage: `{b}%`
+◉ RAM Usage: `{c}%`
+◉ Total Disk Space: `{d}`
+◉ Used Space: `{e} ({f}%)`
+◉ Free Space: `{g}`
 
-<b>🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ</b> : <code>{}</code> MIB
-
-© <b>@ebooksdlsbot</b>""" 
+🗃️ __--Database Status--__
+◉ Tota Files: `{h}`
+◉ Tota Users: `{i}`
+◉ Tota Chats: `{j}`
+◉ Used Storage: `{k}` 
+◉ Free Storage: `{l}`
+◉ Total Storage: `{m}` 
 """
 
 AUTO_TXT = """
