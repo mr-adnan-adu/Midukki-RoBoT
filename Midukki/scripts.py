@@ -5,7 +5,7 @@ I'm <b>{bot}</b> ✨ an advanced telegram Group management
 
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
 
-Join <b><a href=http://t.me/Mo_Tech_YT>my news channel</a></b> to get information on all the latest updates
+Join <b><a href=http://t.me/ebooks_malayalam_ebooks>my news channel</a></b> to get information on all the latest updates
 """
 
 HELP_TXT = """
