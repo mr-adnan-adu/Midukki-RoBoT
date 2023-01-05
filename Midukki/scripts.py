@@ -26,24 +26,17 @@ Hᴇʀᴇ ɪs ᴛʜᴇ Hᴇʟᴘ ᴏғ ᴍʏ Cᴏᴍᴍᴀɴᴅs"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 """
     
-STATUS_TXT = """
-**--{bot}'s STATUS--**
+STATUS_TXT = """<b>📚 Total PDF Files</b> : <code>{}</code>
+    
+<b>👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs/b> : <code>{}</code>
 
-📡 __--Server Status--__
-◉ Uptime: `{a}`
-◉ CPU Usage: `{b}%`
-◉ RAM Usage: `{c}%`
-◉ Total Disk Space: `{d}`
-◉ Used Space: `{e} ({f}%)`
-◉ Free Space: `{g}`
+<b>👩‍💻 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs</b> : <code>{}</code>
 
-🗃️ __--Database Status--__
-◉ Tota Files: `{h}`
-◉ Tota Users: `{i}`
-◉ Tota Chats: `{j}`
-◉ Used Storage: `{k}` 
-◉ Free Storage: `{l}`
-◉ Total Storage: `{m}` 
+<b>📊 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ</b> : <code>{}</code> MIB
+
+<b>🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ</b> : <code>{}</code> MIB
+
+© <b>@ebooksdlsbot</b>""" 
 """
 
 AUTO_TXT = """
